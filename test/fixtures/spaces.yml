@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  begin: 2013-04-27 15:53:14
+  end: 2013-04-27 15:53:14
+  price: 1.5
+  address: MyString
+  space_type: MyString
+  charge: false
+  picture: MyString
+
+two:
+  user_id: 1
+  begin: 2013-04-27 15:53:14
+  end: 2013-04-27 15:53:14
+  price: 1.5
+  address: MyString
+  space_type: MyString
+  charge: false
+  picture: MyString

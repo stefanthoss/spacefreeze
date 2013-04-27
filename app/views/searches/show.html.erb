@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User:</b>
+  <%= @search.user_id %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @search.address %>
+</p>
+
+<p>
+  <b>Begin:</b>
+  <%= @search.begin %>
+</p>
+
+<p>
+  <b>End:</b>
+  <%= @search.end %>
+</p>
+
+<p>
+  <b>Max distance:</b>
+  <%= @search.max_distance %>
+</p>
+
+<p>
+  <b>Max price:</b>
+  <%= @search.max_price %>
+</p>
+
+<p>
+  <b>Space type:</b>
+  <%= @search.space_type %>
+</p>
+
+<p>
+  <b>Charge:</b>
+  <%= @search.charge %>
+</p>
+
+
+<%= link_to 'Edit', edit_search_path(@search) %> |
+<%= link_to 'Back', searches_path %>

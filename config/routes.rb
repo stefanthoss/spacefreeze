@@ -1,4 +1,13 @@
 Spacefreeze::Application.routes.draw do
+  resources :searches
+
+
+  resources :spaces
+
+
+  resources :users
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
