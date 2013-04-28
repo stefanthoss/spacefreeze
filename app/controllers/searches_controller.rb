@@ -85,4 +85,7 @@ class SearchesController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def confirmation
+  end
 end

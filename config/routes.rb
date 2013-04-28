@@ -1,5 +1,6 @@
 Spacefreeze::Application.routes.draw do
   get "home/index"
+  get "searches/confirmation"
 
 
   resources :searches
