@@ -1,3 +1,14 @@
+			<%= image_tag("background-sf.png") %>
+		<div class="home_background_img row-fluid" >
+rake assets:precompile
+	margin: 0 auto !important;
+	float: none !important;
+
+	text-align:center;
+	margin-top: -150px; /* negative value of footer height */
+	height: 150px;
+	clear:both;
+
 *
 font-family: Montserrat - regular (Google fonts)
 

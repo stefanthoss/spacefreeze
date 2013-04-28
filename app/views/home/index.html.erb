@@ -9,21 +9,23 @@
   </div>
 </div>
 
-<div class="span5 offset1">
-	<input type="text" data-provide="typeahead" id="space_search"><a class="btn btn-info"  role="button" id='search_text'>Search<i class="icon-search"></i></a>
-</div>
+
 
 <div class="row-fluid">
 	<div class="span10 offset1">
 
-		<div class="tab-content row-fluid" >
-			<div class="tab-pane active" id="home_image_tab">	
-					<%= image_tag("background-sf.png") %>
-							
-			</div>
+		<div class="home_background_img" >	
+		<div class="container-fluid"> 
+			<h3> Find space in the Bay Area</h3>
+			<h5> TO PARK YOUR CAR, BOAT, ATV AND BELONGINGS</h5>
+			<input type="text" data-provide="typeahead" id="space_search" placeholder="What kind of space do you need?">					
+			<span class="add-on"><input type="text" id="drop_off" placeholder="Drop off"> <i class="icon-calendar"></i></span>				
+			<span class="add-on"><input type="text" id="pick_upp" placeholder="Pick up"> <i class="icon-calendar"></i></span>
+			<a class="btn btn-info"  role="button" id='search_text'>Search<i class="icon-search"></i></a>
+		</div>
 		</div>				
 
-		<table class="table">
+		<table class="table"  align="center">
 			<thead>
 				<tr>
 					<th>Space For Your Car</th>
@@ -39,6 +41,38 @@
 				</tr>
 			</tbody>
 		</table>
+		
+		<footer class="footer">
+			<table class="table table-footer"  align="center">
+				<thead>
+					<tr>
+						<th>Spacefreeze</th>
+						<th></th>
+						<th></th>	
+						<th><small>About Us</small></th>	
+						<th><small>Settings</small></th>	
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><%= image_tag("fb.png") %></td>
+						<td></td>
+						<td></td>
+						<td><small>Our Team</small></td>
+						<td><small>Terms</small></td>
+					</tr>
+					<tr>
+						<td><%= image_tag("twitter.png") %></td>
+						<td> </td>
+						<td> </td>
+						<td>Our Story</td>
+						<td>Privacy</td>
+					</tr>
+				</tbody>
+			</table>	
+		<p><small>C 2013 Spacefreeze Inc.</small></p>
+		</footer>
 	</div>
 </div>
+
 		
