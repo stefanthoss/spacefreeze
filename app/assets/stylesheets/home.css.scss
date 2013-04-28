@@ -6,7 +6,18 @@
 }
 .main_area{
 	display: block;
+	background-color:#ece9e2;
 }
+.container-fluid {   
+	text-align:center;
+	color: white;
+	position: relative;
+	padding: 20%;
+	border: 0;
+	margin: 0 auto;
+	display: block;	
+
+} 
 .home_background_img {   
 	background-image: image-url('background-sf.png'); 
 	background-repeat: no-repeat;
@@ -19,19 +30,9 @@
 	display: block;
     box-sizing: border-box;	
 	background-size:contain;
-
 } 
 
-.container-fluid {   
-	text-align:center;
-	color: white;
-	position: relative;
 
-	padding: 20%;
-	border: 0;
-	margin: 0 auto;
-	display: block;	
-} 
 
 .table{
 	float: none !important;
