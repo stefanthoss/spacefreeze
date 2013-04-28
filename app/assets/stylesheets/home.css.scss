@@ -1,7 +1,42 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.home_background_img {   
+	background-image: image-url('background-sf.png'); 
+	background-repeat: no-repeat;
+	padding: 18%;
+    box-sizing: border-box;
+    position: relative;   
+} 
+
+.container-fluid {   
+	text-align:center;
+	color: white;
+	top: 0px;
+	position: relative;  
+} 
+
+.table{
+	align: center;
+	float: none !important;
+	background-color:#ece9e2;	
+}
 
 .table th, .table td { 
      border-top: none; 
  }
+
+.footer {
+	padding: 1%;
+    box-sizing: border-box;
+    position: relative;  
+	background-color:black;
+	color: white;
+}  
+
+.table-footer{
+	align: center;
+	float: none !important;
+	background-color:black;	
+}
+ 
