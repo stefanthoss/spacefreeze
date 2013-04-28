@@ -11,3 +11,5 @@
  *= require_self
  *= require_tree .
  */
+
+html, body, .container-fluid, .row-fluid, .lightgrey { background-color:#F0EEEF; }

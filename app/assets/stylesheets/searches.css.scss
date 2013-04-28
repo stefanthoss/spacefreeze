@@ -1,3 +1,73 @@
 // Place all the styles related to the Searches controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.row_fluid {
+	background-color:#F0EEEF; }
+
+.search_header {
+	background-color:#E1DFE0;
+	height:50px;
+	padding:10px;
+	margin-top:10px; }
+
+.type {
+	width: 70px;
+	height: 30px;
+	margin: 1px;
+	padding-top: 10px;
+	text-align: center;
+	color:#FFFFFF;
+	float:left;
+	font-weight: bold;
+	background-color:#CCCCCC; }
+
+.result {
+	margin: 10px 5px 10px 5px; }
+
+.map {
+	background-color: #E1DFE0;
+	padding: 7px;
+	margin: 15px; }
+
+.col1 {
+	width:10%;
+	float:left; }
+
+.col2 {
+	width:70%;
+	float:left; }
+
+.col3 {
+	width:20%;
+	float:left;
+	text-align:right; }
+
+.result {
+	border-bottom: 2px solid #E1DFE0; }
+
+.result_header {
+	color: #4DAAD6;
+	font-weight: bold;
+	font-size: 15px; }
+
+.result_subheader {
+	color: #999999;
+	font-size: 15px; }
+
+.price {
+	font-size:25px; }
+
+.price_unit {  }
+
+#search_address {
+	width:200px; }
+
+#search_begin {
+	width:100px; }
+
+#search_end {
+	width:100px; }
+
+#commit {
+	width:100px; }

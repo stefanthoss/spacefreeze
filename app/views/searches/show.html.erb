@@ -1,95 +1,49 @@
-<p id="notice"><%= notice %></p>
+<div class="navbar">
+  <div class="navbar-inner">
+	<a class="brand">Spacefreeze</a>
+	<div class="nav pull-right">
+		<%= image_tag("esther.png") %>
+		<b>Esther</b>
+		<a class="btn btn-warning"  id="list_my_space" role="button" >List your space</a>			 					
+	</div>
+  </div>
+</div>
 
-<p>
-  <b>User:</b>
-  <%= @search.user_id %>
-</p>
+<!-- <p id="notice"><%= notice %></p>
+<p><%= @search.user_id %>, <%= @search.address %>, <%= @search.begin %>, <%= @search.end %></p>, <%= @search.max_distance %>, <%= @search.max_price %>, <%= link_to 'Edit', edit_search_path(@search) %> -->
 
-<p>
-  <b>Address:</b>
-  <%= @search.address %>
-</p>
+<div class="row-fluid">
+	<div class="span7 offset1">
+		<div class="search_header">
+			<div class="type" style="background-color:#990099;">CAR</div><div class="type">TOY</div><div class="type">STUFF</div>
+			<input id="search_address" name="search[address]" type="text" value="Where at?" />
+			<input id="search_begin" name="search[begin]" type="text" value="Drop off" />
+			<input id="search_end" name="search[end]" type="text" value="Pick up" />
+			<a href="#" class="btn btn-primary" role="button">SEARCH <i class="icon-search icon-white"></i></a>
+		</div>
+	</div>
+</div>
+<div class="row-fluid">
+	<div class="span3 offset1">
+		<div class="map"><%= image_tag("map.jpg") %></div>
+	</div>
+	<div class="span4">
 
-<p>
-  <b>Lat/Lng:</b>
-  <%= @search.lat %> / <%= @search.lng %>
-</p>
+		<% if @results.empty? %>
 
-<p>
-  <b>Begin:</b>
-  <%= @search.begin %>
-</p>
+			<p>No results for your search</p>
 
-<p>
-  <b>End:</b>
-  <%= @search.end %>
-</p>
+			<% else %>
+			<% @results.each_with_index do |r,i| %>
 
-<p>
-  <b>Max distance:</b>
-  <%= @search.max_distance %>
-</p>
+				<div class="result">
+					<div class="col1"><%= i + 1 %></div>
+					<div class="col2"><span class="result_header"><%= r.address %></span><br /><span class="result_subheader"><%= r.space_type %></span></div>
+					<div class="col3"><span class="price">$<%= r.price %></span><br /><span="price_unit">per hour</span><br /><script src="/assets/paypal-button.min.js?merchant=yypmath@gmail.com" data-button="buynow" data-name="spacefreeze"></script></div><br />
+				</div>
 
-<p>
-  <b>Max price:</b>
-  <%= @search.max_price %>
-</p>
+			<% end %>
+		<% end %>
 
-<p>
-  <b>Space type:</b>
-  <%= @search.space_type %>
-</p>
-
-<p>
-  <b>Charge:</b>
-  <%= @search.charge %>
-</p>
-
-<h2>Results for your search</h2>
-
-<% if @results.empty? %>
-
-<p>No results for your search</p>
-
-<% else %>
-
-<table>
-  <tr>
-    <th>User</th>
-    <th>Begin</th>
-    <th>End</th>
-    <th>Price</th>
-    <th>Search</th>
-    <th>Address</th>
-    <th>Lat/Lng</th>
-    <th>Space type</th>
-    <th>Charge</th>
-    <th>Picture</th>
-    <th></th>
-  </tr>
-
-<% @results.each do |space| %>
-  <tr>
-    <td><%= space.user_id %></td>
-    <td><%= space.begin %></td>
-    <td><%= space.end %></td>
-    <td><%= space.price %></td>
-    <td><%= space.search_id %></td>
-    <td><%= space.address %></td>
-    <td><%= space.lat %> / <%= space.lng %></td>
-    <td><%= space.space_type %></td>
-    <td><%= space.charge %></td>
-    <td><%= space.picture %></td>
-    <td><script src="/assets/paypal-button.min.js?merchant=yypmath@gmail.com" 
-    data-button="buynow" 
-    data-name="spacefreeze"></script></td>
-  </tr>
-<% end %>
-
-<% end %>
-
-</table>
-
-
-<%= link_to 'Edit', edit_search_path(@search) %> |
-<%= link_to 'Back', searches_path %>
+	</div>
+</div>
