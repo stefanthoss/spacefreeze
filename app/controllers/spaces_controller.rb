@@ -1,4 +1,5 @@
 class SpacesController < ApplicationController
+
   # GET /spaces
   # GET /spaces.json
   def index
@@ -42,6 +43,8 @@ class SpacesController < ApplicationController
   def create
     @space = Space.new(params[:space])
 
+    notify_user "+19492327008"
+
     respond_to do |format|
       if @space.save
         format.html { redirect_to @space, notice: 'Space was successfully created.' }
@@ -79,5 +82,14 @@ class SpacesController < ApplicationController
       format.html { redirect_to spaces_url }
       format.json { head :no_content }
     end
+  end
+
+  def notify_user number
+    account_sid = "AC8a8f5d85af54eef44f70b66931af0043"
+    auth_token = "9eb86102da1a4575516cf0d5ab38f7b0"
+    from = "+19512254918"
+
+    client = Twilio::REST::Client.new account_sid, auth_token
+    client.account.sms.messages.create(:from => from, :to => number, :body => "Hey fellow, we just found a space for you! Go to spacefreeze.com to book it.")
   end
 end
