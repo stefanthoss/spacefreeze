@@ -31,12 +31,8 @@ footer.png: footer-83bc15546c8a69485b9918affe527a55.png
 footer/index.png: footer-83bc15546c8a69485b9918affe527a55.png
 logo.png: logo-2045ea7f2e6332fa720defc9e76adde7.png
 logo/index.png: logo-2045ea7f2e6332fa720defc9e76adde7.png
-map.jpg: map-a6c81f33d86827ddef00e935f1d139ed.jpg
-map/index.jpg: map-a6c81f33d86827ddef00e935f1d139ed.jpg
-map.png: map-9e20c6fc5852664754c7ec3d62fbf709.png
-map/index.png: map-9e20c6fc5852664754c7ec3d62fbf709.png
-map1.png: map1-a8403ad83630ca10ea9a842cb4736b36.png
-map1/index.png: map1-a8403ad83630ca10ea9a842cb4736b36.png
+map.png: map-a8403ad83630ca10ea9a842cb4736b36.png
+map/index.png: map-a8403ad83630ca10ea9a842cb4736b36.png
 moving.png: moving-7bbfc9f1e6c02f52d953289de72b5dfe.png
 moving/index.png: moving-7bbfc9f1e6c02f52d953289de72b5dfe.png
 price_range.jpg: price_range-dd8b286a46954384e37c9195dd36e3ff.jpg
@@ -53,8 +49,8 @@ twitter.png: twitter-9fed7a5653bf8d096fad90103f3e4807.png
 twitter/index.png: twitter-9fed7a5653bf8d096fad90103f3e4807.png
 application.js: application-d843e494a92eac93c69a41e2cf89621e.js
 application/index.js: application-d843e494a92eac93c69a41e2cf89621e.js
-application.css: application-4de3fa4ef114fc8ec9798093d407a63f.css
-application/index.css: application-4de3fa4ef114fc8ec9798093d407a63f.css
+application.css: application-cc5e9f13f9e0ca1e6c19beb835c53afc.css
+application/index.css: application-cc5e9f13f9e0ca1e6c19beb835c53afc.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
