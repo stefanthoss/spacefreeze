@@ -11,6 +11,12 @@
 	padding:10px;
 	margin-top:10px; }
 
+.nav {
+	vertical-align: center;}
+
+#avatar {
+	margin:5px; }
+
 .type {
 	width: 70px;
 	height: 30px;
@@ -22,8 +28,20 @@
 	font-weight: bold;
 	background-color:#CCCCCC; }
 
-.result {
-	margin: 10px 5px 10px 5px; }
+#search_address, #search_begin, #search_end {
+	margin-left:10px;
+	height: 30px; }
+
+#search_commit {
+	margin-left:10px;
+	color: #FFFFFF;
+	vertical-align: top;
+	padding-top:7px;
+	height:28px;
+	margin-top:1px; }
+
+.input_field {
+	line-height: 50px; }
 
 .map {
 	background-color: #E1DFE0;
@@ -43,12 +61,27 @@
 	float:left;
 	text-align:right; }
 
+.number {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	height:15px;
+	width:15px;
+	font-size: 15px;
+	padding: 8px;
+	margin-right: 15px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #FFFFFF; }
+
 .result {
-	border-bottom: 2px solid #E1DFE0; }
+	border-bottom: 2px solid #E1DFE0;
+	margin: 10px 5px 10px 5px;
+	height: 75px; }
 
 .result_header {
 	color: #4DAAD6;
 	font-weight: bold;
+	margin-top:10px;
 	font-size: 15px; }
 
 .result_subheader {

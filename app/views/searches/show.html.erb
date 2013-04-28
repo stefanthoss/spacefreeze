@@ -2,7 +2,7 @@
   <div class="navbar-inner">
 	<a class="brand">Spacefreeze</a>
 	<div class="nav pull-right">
-		<%= image_tag("esther.png") %>
+		<%= image_tag("esther.png", :id => "avatar") %>
 		<b>Esther</b>
 		<a class="btn btn-warning"  id="list_my_space" role="button" >List your space</a>			 					
 	</div>
@@ -16,10 +16,10 @@
 	<div class="span7 offset1">
 		<div class="search_header">
 			<div class="type" style="background-color:#990099;">CAR</div><div class="type">TOY</div><div class="type">STUFF</div>
-			<input id="search_address" name="search[address]" type="text" value="Where at?" />
-			<input id="search_begin" name="search[begin]" type="text" value="Drop off" />
-			<input id="search_end" name="search[end]" type="text" value="Pick up" />
-			<a href="#" class="btn btn-primary" role="button">SEARCH <i class="icon-search icon-white"></i></a>
+			<span class="input_field"><input id="search_address" name="search[address]" type="text" value="Where at?" />&nbsp;</span>
+			<span class="input_field"><input id="search_begin" name="search[begin]" type="text" value="Drop off" />&nbsp;</span>
+			<span class="input_field"><input id="search_end" name="search[end]" type="text" value="Pick up" />&nbsp;</span>
+			<span class="input_field"><a href="#" id="search_commit" class="btn btn-primary" role="button">SEARCH <i class="icon-search icon-white"></i></a>&nbsp;</span>
 		</div>
 	</div>
 </div>
@@ -37,9 +37,9 @@
 			<% @results.each_with_index do |r,i| %>
 
 				<div class="result">
-					<div class="col1"><%= i + 1 %></div>
+					<div class="col1"><div class="number"><%= i + 1 %></div></div>
 					<div class="col2"><span class="result_header"><%= r.address %></span><br /><span class="result_subheader"><%= r.space_type %></span></div>
-					<div class="col3"><span class="price">$<%= r.price %></span><br /><span="price_unit">per hour</span><br /><script src="/assets/paypal-button.min.js?merchant=yypmath@gmail.com" data-button="buynow" data-name="spacefreeze"></script></div><br />
+					<div class="col3"><span class="price"><%= number_to_currency(r.price) %></span><br /><span="price_unit">per hour</span><br /><script src="/assets/paypal-button.min.js?merchant=yypmath@gmail.com" data-button="buynow" data-name="spacefreeze"></script></div><br />
 				</div>
 
 			<% end %>
