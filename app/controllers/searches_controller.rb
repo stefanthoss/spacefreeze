@@ -1,4 +1,6 @@
 class SearchesController < ApplicationController
+  http_basic_authenticate_with :name => "freeze", :password => "sustain", :realm => "You need to login to see more of this page.", :except => [:index, :show]
+
   # GET /searches
   # GET /searches.json
   def index
