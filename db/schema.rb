@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(:version => 20130427234951) do
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
     t.float    "lat"
-    t.float    "lon"
+    t.float    "lng"
   end
 
   create_table "spaces", :force => true do |t|
@@ -41,7 +41,7 @@ ActiveRecord::Schema.define(:version => 20130427234951) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.float    "lat"
-    t.float    "lon"
+    t.float    "lng"
   end
 
   create_table "users", :force => true do |t|
