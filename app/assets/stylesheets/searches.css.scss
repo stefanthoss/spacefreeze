@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // Place all the styles related to the Searches controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
@@ -121,7 +121,7 @@
 
 #commit {
 	width:100px; }
-=======
+
 // Place all the styles related to the Searches controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
@@ -245,12 +245,16 @@
 
 <!--confirmation-->
 .navbar {
+	color: white;
 	overflow: hidden;
 	padding: 0px;
 	margin-bottom: 0px;
 }
 
-
+.navbar-inner {
+	background-color: white;
+}
+	
 .center_img{
 	width: 100%;
 	padding: 0px;	
@@ -284,4 +288,4 @@
  .table-footer th.align_right, .table-footer td.align_right { 
 	text-align: right;	 
  }	
->>>>>>> 'added'
+
