@@ -1,7 +1,8 @@
-spacefreeze is online: https://spacefreeze.herokuapp.com (username: "freeze", password: "sustain")
+Spacefreeze is online: https://spacefreeze.herokuapp.com (username: "freeze", password: "sustain")
 
+Our demo presentation: https://github.com/stefanthoss/spacefreeze/blob/master/public/spacefreeze_presentation.pdf?raw=true
 
-The peer to peer space sharing web app "spacefreeze" optimizes the realtime available space for customers ranging from parking,toys and various belongings and provides simple and effective solutions to satisfy electric vehicles charging needs.
+The peer to peer space sharing web/mobile app "spacefreeze" optimizes the available space in realtime for customers ranging from parking and various belongings, provides simple and effective solutions to satisfy electric vehicles charging needs.
 
 Spacefreeze connects and enables the communications between our customers: both providers and renters by using Twilio's realtime SMS notification API. For electric vehicle drivers, optimized charging solution is also provided through Chargepoint API. 
 Final checkout and payment process is empowered by PayPal API.
