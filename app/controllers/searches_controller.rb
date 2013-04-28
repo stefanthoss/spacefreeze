@@ -18,7 +18,7 @@ class SearchesController < ApplicationController
     @search = Search.find(params[:id])
 
     # All spaces that fit the search should be saved in @results
-    @results = Space.all
+    @results = Space.order("price")
 
     respond_to do |format|
       format.html # show.html.erb
