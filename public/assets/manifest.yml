@@ -11,6 +11,8 @@ background-sf.png: background-sf-b31d2d10824e42c3cd7ac651c10ca4f3.png
 background-sf/index.png: background-sf-b31d2d10824e42c3cd7ac651c10ca4f3.png
 boat.png: boat-d59dbe54e3cfaf237bfc0f8bdcd3199d.png
 boat/index.png: boat-d59dbe54e3cfaf237bfc0f8bdcd3199d.png
+book-button.jpg: book-button-49cd9bee0eb5c19688d1d19d6da69132.jpg
+book-button/index.jpg: book-button-49cd9bee0eb5c19688d1d19d6da69132.jpg
 cal.png: cal-8f553444d351c68a9b619ac13f7c1f3e.png
 cal/index.png: cal-8f553444d351c68a9b619ac13f7c1f3e.png
 car.png: car-1071e218d9778e54a6f7f7ed1a4e63be.png

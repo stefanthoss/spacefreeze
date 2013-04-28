@@ -28,7 +28,7 @@
 		<div class="map"><%= image_tag("map.png", :size => "320x320") %></div>
 		<br />
 		<div class="price_range">
-			<span class="price_range_label">&nbsp;&nbsp;PRICE</a><br /><br />
+			<span class="price_range_label">&nbsp;PRICE</a><br /><br />
 			<%= image_tag("price_range.jpg", :id => "slider") %>
 		</div>
 	</div>
@@ -47,7 +47,7 @@
 				<div class="result">
 					<div class="col1"><div class="number"><%= i + 1 %></div><%= image_tag("chargepoint.png", :id => "cp_logo", :size => "30x30") if r.charge %></div>
 					<div class="col2"><span class="result_header"><%= r.address %></span><br /><span class="result_subheader"><%= r.space_type %></span></div>
-					<div class="col3"><span class="price"><%= number_to_currency(r.price) %></span><span="price_unit">&nbsp;</span><br /><script src="/assets/paypal-button.min.js?merchant=yypmath@gmail.com" data-button="buynow" data-name="spacefreeze"></script></div><br />
+					<div class="col3"><span class="price"><%= number_to_currency(r.price) %></span><br /><span="price_unit">&nbsp;</span><br /><%= link_to image_tag('book-button.jpg'), "/searches/confirmation" %></div><br />
 				</div>
 
 			<% end %>
