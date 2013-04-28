@@ -65,6 +65,7 @@
     <th>Space type</th>
     <th>Charge</th>
     <th>Picture</th>
+    <th></th>
   </tr>
 
 <% @results.each do |space| %>
@@ -79,6 +80,9 @@
     <td><%= space.space_type %></td>
     <td><%= space.charge %></td>
     <td><%= space.picture %></td>
+    <td><script src="/assets/paypal-button.min.js?merchant=yypmath@gmail.com" 
+    data-button="buynow" 
+    data-name="spacefreeze"></script></td>
   </tr>
 <% end %>
 
