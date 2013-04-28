@@ -45,6 +45,51 @@
   <%= @search.charge %>
 </p>
 
+<h2>Results for your search</h2>
+
+<% if @results.empty? %>
+
+<p>No results for your search</p>
+
+<% else %>
+
+<table>
+  <tr>
+    <th>User</th>
+    <th>Begin</th>
+    <th>End</th>
+    <th>Price</th>
+    <th>Search</th>
+    <th>Address</th>
+    <th>Lat/Lng</th>
+    <th>Space type</th>
+    <th>Charge</th>
+    <th>Picture</th>
+    <th></th>
+  </tr>
+
+<% @results.each do |space| %>
+  <tr>
+    <td><%= space.user_id %></td>
+    <td><%= space.begin %></td>
+    <td><%= space.end %></td>
+    <td><%= space.price %></td>
+    <td><%= space.search_id %></td>
+    <td><%= space.address %></td>
+    <td><%= space.lat %> / <%= space.lng %></td>
+    <td><%= space.space_type %></td>
+    <td><%= space.charge %></td>
+    <td><%= space.picture %></td>
+    <td><script src="/assets/paypal-button.min.js?merchant=yypmath@gmail.com" 
+    data-button="buynow" 
+    data-name="spacefreeze"></script></td>
+  </tr>
+<% end %>
+
+<% end %>
+
+</table>
+
 
 <%= link_to 'Edit', edit_search_path(@search) %> |
 <%= link_to 'Back', searches_path %>
