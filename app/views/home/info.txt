@@ -1,0 +1,92 @@
+*
+font-family: Montserrat - regular (Google fonts)
+
+// top navigation //
+nav bar:
+color: white
+height: 65px
+
+logo: centered in nav bar
+
+list button: centered in nav bar
+height: 40
+width: 137
+color: #ff9933
+hover color: #ff6600
+
+// search section //
+Title: "Find space in the Bay Area": 150px from the top
+color: white
+font type: regular
+font size: 41
+
+Subtitle: "TO PARK YOUR CAR, BOAT, ATV AND BELONGINGS" 
+color: white
+font type: bold
+font size: 16
+
+the search box: 195px from the top
+
+search text:
+"What kind of space do you need?" (Dropdown function)
+color: #333333
+font type: bold
+font size: 14
+
+"Drop off"
+
+"Pick up"
+
+search button:
+height: 40
+width: 110
+color: #4f7bfb
+hover color: #3333cc
+
+search text: "SEARCH"
+font style: bold
+font size: 14
+
+
+// case studies section //
+background:
+color: #ece9e2
+height: 300px
+
+text: "Space For Your Car"
+color: #333333
+font style: regular
+font size: 24
+
+"Space For Your Toys"
+
+"Space For Your Things"
+
+images: center to text
+
+// footer //
+
+background:
+color: black
+height: 178px
+
+logo: "Spacefreeze"
+color: white
+font-family: Montserrat
+font style: bold
+size: 18
+
+text: "© 2013  Spacefreeze Inc."
+color: white
+font style: regular
+size: 10
+
+text: "About Us"
+color: white
+font style: regular
+size: 16
+
+text: "Our Team"
+color: #cccccc
+font style: regular
+size: 12
