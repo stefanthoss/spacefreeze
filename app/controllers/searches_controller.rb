@@ -18,7 +18,7 @@ class SearchesController < ApplicationController
     @search = Search.find(params[:id])
 
     # All spaces that fit the search should be saved in @results
-    @results = Space.all
+    @results = Space.order("price")
 
     respond_to do |format|
       format.html # show.html.erb
@@ -87,5 +87,12 @@ class SearchesController < ApplicationController
   end
 
   def confirmation
+    account_sid = "AC8a8f5d85af54eef44f70b66931af0043"
+    auth_token = "9eb86102da1a4575516cf0d5ab38f7b0"
+    from = "+19512254918"
+    number = "+19492327008"
+
+    client = Twilio::REST::Client.new account_sid, auth_token
+    client.account.sms.messages.create(:from => from, :to => number, :body => "Hey fellow, your space on 825 Cole Street was just booked by Esther.")
   end
 end
