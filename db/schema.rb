@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130427225411) do
+ActiveRecord::Schema.define(:version => 20130427234951) do
 
   create_table "searches", :force => true do |t|
     t.integer  "user_id"
@@ -24,6 +24,8 @@ ActiveRecord::Schema.define(:version => 20130427225411) do
     t.boolean  "charge"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
+    t.float    "lat"
+    t.float    "lng"
   end
 
   create_table "spaces", :force => true do |t|
@@ -38,6 +40,8 @@ ActiveRecord::Schema.define(:version => 20130427225411) do
     t.integer  "search_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.float    "lat"
+    t.float    "lng"
   end
 
   create_table "users", :force => true do |t|
