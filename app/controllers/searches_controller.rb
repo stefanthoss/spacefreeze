@@ -15,6 +15,9 @@ class SearchesController < ApplicationController
   def show
     @search = Search.find(params[:id])
 
+    # All spaces that fit the search should be saved in @results
+    @results = Space.all
+
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @search }
