@@ -16,11 +16,17 @@
 		<div class="home_background_img" >	
 			<div class="container-fluid"> 
 					<h2> Find space in the Bay Area</h2>
-					<h5> TO PARK YOUR CAR, BOAT, ATV AND BELONGINGS</h5>
-					<input type="text" data-provide="typeahead" id="space_search" placeholder="What kind of space do you need?">					
-					<span class="add-on"><input type="text" id="drop_off" placeholder="Drop off"> <i class="icon-calendar"></i></span>				
-					<span class="add-on"><input type="text" id="pick_upp" placeholder="Pick up"> <i class="icon-calendar"></i></span>
-					<a class="btn btn-info"  role="button" id='search_text'>Search<i class="icon-search"></i></a>
+					<h5> TO PARK YOUR CAR, BOAT, ATV AND BELONGINGS</h5>	
+					<select class="space_search">
+						<option class="space_search" selected>Kind of space</option>
+						<option class="space_search">Garage</option>
+						<option class="space_search">Garage (charge)</option>
+						<option class="space_search">Uncovered</option>
+						<option class="space_search">Uncovered (charge)</option>
+					</select>				
+					<span class="add-on"><input type="text" id="drop_off" placeholder="Drop off"></span>				
+					<span class="add-on"><input type="text" id="pick_up" placeholder="Pick up"></span>
+					<a class="btn btn-info" href="/searches/1" role="button" id="search_text">Search<i class="icon-search icon-white"></i></a>
 			</div>
 		</div>
 

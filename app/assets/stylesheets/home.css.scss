@@ -41,6 +41,20 @@
 	padding: 0%;
 }
 
+.space_search, #drop_off, #pick_up {
+	margin-left:10px;
+	width: 150px;
+	height: 30px;
+	line-height: 30px; }
+
+#search_text {
+	margin-left:10px;
+	color: #FFFFFF;
+	vertical-align: top;
+	padding-top:7px;
+	height:28px;
+	margin-top:1px; }
+
 .table th, .table td { 
     border-top: none; 
 	text-align: center;	 
