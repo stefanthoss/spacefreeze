@@ -90,6 +90,6 @@ class SpacesController < ApplicationController
     from = "+19512254918"
 
     client = Twilio::REST::Client.new account_sid, auth_token
-    client.account.sms.messages.create(:from => from, :to => number, :body => "Hey fellow, we just found a space for you! Go to spacefreeze.com to book it.")
+    client.account.sms.messages.create(:from => from, :to => number, :body => "Hey fellow, we just found a space for you! Go to spacefreeze.herokuapp.com to book it.")
   end
 end

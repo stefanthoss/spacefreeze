@@ -2,6 +2,7 @@
 
 <table>
   <tr>
+    <th>Email</th>
     <th>Paypal email</th>
     <th>Name</th>
     <th>Address</th>
@@ -13,6 +14,7 @@
 
 <% @users.each do |user| %>
   <tr>
+    <td><%= user.email %></td>
     <td><%= user.paypal_email %></td>
     <td><%= user.name %></td>
     <td><%= user.address %></td>

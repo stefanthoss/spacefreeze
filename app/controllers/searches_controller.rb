@@ -1,4 +1,5 @@
 class SearchesController < ApplicationController
+
   # GET /searches
   # GET /searches.json
   def index
