@@ -93,6 +93,6 @@ class SearchesController < ApplicationController
     number = "+19492327008"
 
     client = Twilio::REST::Client.new account_sid, auth_token
-    client.account.sms.messages.create(:from => from, :to => number, :body => "Hey fellow, your space on 825 Cole Street was just booked by Esther.")
+    client.account.sms.messages.create(:from => from, :to => number, :body => "Hey fellow, your space at 825 Cole Street was just booked by Esther.")
   end
 end
