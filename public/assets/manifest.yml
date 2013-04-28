@@ -17,6 +17,8 @@ car.png: car-1071e218d9778e54a6f7f7ed1a4e63be.png
 car/index.png: car-1071e218d9778e54a6f7f7ed1a4e63be.png
 center.png: center-8299e7df9e436085b229bd93138139c3.png
 center/index.png: center-8299e7df9e436085b229bd93138139c3.png
+chargepoint.png: chargepoint-166dba3c2f6bb62b1135f4605f844b5f.png
+chargepoint/index.png: chargepoint-166dba3c2f6bb62b1135f4605f844b5f.png
 down.png: down-b7697adaf2dd877269b3623a21f68b54.png
 down/index.png: down-b7697adaf2dd877269b3623a21f68b54.png
 esther-circle-35.png: esther-circle-35-853846d97de27c845fad20e91ca67f10.png
@@ -51,8 +53,8 @@ twitter.png: twitter-9fed7a5653bf8d096fad90103f3e4807.png
 twitter/index.png: twitter-9fed7a5653bf8d096fad90103f3e4807.png
 application.js: application-d843e494a92eac93c69a41e2cf89621e.js
 application/index.js: application-d843e494a92eac93c69a41e2cf89621e.js
-application.css: application-27574819fa2de29bbc28183142653fb1.css
-application/index.css: application-27574819fa2de29bbc28183142653fb1.css
+application.css: application-4de3fa4ef114fc8ec9798093d407a63f.css
+application/index.css: application-4de3fa4ef114fc8ec9798093d407a63f.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
