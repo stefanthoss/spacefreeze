@@ -8,7 +8,8 @@ rake assets:precompile
 	margin-top: -150px; /* negative value of footer height */
 	height: 150px;
 	clear:both;
-
+	padding: 18%;
+	padding: 1%;
 *
 font-family: Montserrat - regular (Google fonts)
 

@@ -1,33 +1,54 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.main_area{
+	display: block;
+}
 .home_background_img {   
 	background-image: image-url('background-sf.png'); 
 	background-repeat: no-repeat;
-	padding: 18%;
-    box-sizing: border-box;
-    position: relative;   
+	min-height: 400px;
+	background-size: 100% 100%;	
+	border: 0;
+	margin: 0 auto;
+	padding: 0;
+    position: relative; 
+	display: block;
+    box-sizing: border-box;	
+	background-size:contain;
+
 } 
 
 .container-fluid {   
 	text-align:center;
 	color: white;
-	top: 0px;
-	position: relative;  
+	position: relative; 
+	padding: 20%;
+	border: 0;
+	margin: 0 auto;
+	display: block;	
 } 
 
 .table{
-	align: center;
 	float: none !important;
+	horizontal-align: center;
+	
+	border-spacing: 0;
 	background-color:#ece9e2;	
+	border: 0;
+	margin: 0 auto;
+	padding: 0%;
 }
 
 .table th, .table td { 
-     border-top: none; 
+    border-top: none; 
+	text-align: center;	 
  }
 
 .footer {
-	padding: 1%;
+	border: 0;
+	margin: 0 auto;
+	padding: 0;
     box-sizing: border-box;
     position: relative;  
 	background-color:black;
@@ -39,4 +60,11 @@
 	float: none !important;
 	background-color:black;	
 }
+
+.table-footer th, .table-footer td { 
+	text-align: left;	 
+ } 
  
+ .table-footer th.align_right, .table-footer td.align_right { 
+	text-align: right;	 
+ }
