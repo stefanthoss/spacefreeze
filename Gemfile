@@ -6,7 +6,7 @@ gem 'bootstrap-sass', '2.1'
 
 gem 'geokit'
 
-gem 'twilio'
+gem 'twilio-ruby'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
