@@ -1,1 +1,1 @@
-Heroku URL: https://thawing-sea-9747.herokuapp.com/
+spacefreeze is online: https://spacefreeze.herokuapp.com
