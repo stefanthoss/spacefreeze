@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Place all the styles related to the Searches controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
@@ -6,127 +5,6 @@
 .search_background {
 	margin: 0px;
 	padding: 0px;
-	background-color:#F0EEEF; }
-
-.search_header {
-	background-color:#E1DFE0;
-	height:50px;
-	padding:10px;
-	margin-top:10px; }
-
-.nav {
-	vertical-align: center;}
-
-#avatar {
-	margin:5px; }
-
-.type {
-	width: 70px;
-	height: 30px;
-	margin: 1px;
-	padding-top: 10px;
-	text-align: center;
-	color:#FFFFFF;
-	float:left;
-	font-weight: bold;
-	background-color:#CCCCCC; }
-
-#search_address, #search_begin, #search_end {
-	margin-left:10px;
-	height: 30px; }
-
-#search_commit {
-	margin-left:10px;
-	color: #FFFFFF;
-	vertical-align: top;
-	padding-top:7px;
-	height:28px;
-	margin-top:1px; }
-
-.input_field {
-	line-height: 50px; }
-
-.map {
-	background-color: #E1DFE0;
-	padding: 7px;
-	margin: 15px; }
-
-.price_range {
-	background-color: #E1DFE0;
-	padding: 7px;
-	margin: 15px; }
-
-.price_range_label {
-	color: #666666;
-	font-weight: bold;
-	padding-top: 10px;
-	margin: 10px 5px 10px 10px; }
-
-#slider {
-	margin: 10px 10px 10px 20px; }
-
-.col1 {
-	width:10%;
-	float:left; }
-
-.col2 {
-	width:70%;
-	float:left; }
-
-.col3 {
-	width:20%;
-	float:left;
-	text-align:right; }
-
-.number {
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	height:15px;
-	width:15px;
-	font-size: 15px;
-	padding: 8px;
-	margin-right: 15px;
-	text-align: center;
-	font-weight: bold;
-	background-color: #FFFFFF; }
-
-.result {
-	border-bottom: 2px solid #E1DFE0;
-	margin: 10px 5px 10px 5px;
-	height: 75px; }
-
-.result_header {
-	color: #4DAAD6;
-	font-weight: bold;
-	margin-top:10px;
-	font-size: 15px; }
-
-.result_subheader {
-	color: #999999;
-	font-size: 15px; }
-
-.price {
-	font-size:25px; }
-
-.price_unit {  }
-
-#search_address {
-	width:200px; }
-
-#search_begin {
-	width:100px; }
-
-#search_end {
-	width:100px; }
-
-#commit {
-	width:100px; }
-=======
-// Place all the styles related to the Searches controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
-.row_fluid {
 	background-color:#F0EEEF; }
 
 .search_header {
@@ -259,6 +137,7 @@
 	right-margin: 0px;
     box-sizing: border-box;
     position: relative;  
+
 }
 	
 .footer {
@@ -283,5 +162,4 @@
  
  .table-footer th.align_right, .table-footer td.align_right { 
 	text-align: right;	 
- }	
->>>>>>> 'added'
+ }

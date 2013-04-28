@@ -34,9 +34,12 @@
 	</div>
 	<div class="span4">
 
-		<% if @results.empty? %>
+		<% # if @results.empty? %>
+			<% if @search.id > 1 %>
 
-			<p>No results for your search</p>
+				<div class="result">
+					<div class="col2"><br /><span class="result_header">Unfortunately, there's no space available for your search. But we will send you a text message as soon as there's a space for you.</span><br /></div>
+				</div>
 
 			<% else %>
 			<% @results.each_with_index do |r,i| %>
